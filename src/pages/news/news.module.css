@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 0 5rem;
+}
+
+.news {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.image {
+    width: 20rem;
+    height: 20rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    color: gray;
+}
